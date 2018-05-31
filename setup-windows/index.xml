@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup for Windows on Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/setup-windows/</link>
+    <description>Recent content in Setup for Windows on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://xtbc18s3.github.io/setup-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://xtbc18s3.github.io/setup-windows/chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/chrome/</guid>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>http://xtbc18s3.github.io/setup-windows/editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/editor/</guid>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft. It was built from the ground up to be cross-platform. It&amp;rsquo;s only three years old, but it&amp;rsquo;s impressive.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/setup-windows/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git  for Windows  Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?)
+There are several ways to go about making Git usable on Windows, but my favorite is to install the aptly-named Git for Windows. The great thing about Git for Windows is that it comes with Git Bash&amp;mdash;a UNIX-style shell.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/setup-windows/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using the command line a fair amount in class. We&amp;rsquo;ll be demonstrating everything on macOS, which is UNIX-based. Now that you&amp;rsquo;ve installed Git Bash, you too have a UNIX-like shell and can run the same commands.
+As noted during setup, Git Bash can run in the default cmd.exe terminal, but it also comes with MinTTY. If you&amp;rsquo;re on Windows 10, cmd.exe isn&amp;rsquo;t quite the inexcusable piece of crap that it used to be.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xtbc18s3.github.io/setup-windows/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/node/</guid>
+      <description>Node.js  Installation To install Node.js, click one of the big, green download links on the web site.
+ Download Node.js 
+Note Node version numbers are confusing, but either the LTS version (8.11.1 as of this writing) or the Current version (10.0.0) will do for our purposes.
+  Testing your installation After Node is installed, close Hyper and reopen it. That way, node and other related commands will be available to you from any folder.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xtbc18s3.github.io/setup-windows/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key In Hyper, make sure you&amp;rsquo;re in your home directory. You will be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd
+     WINGW64:/c/Users/user &amp;nbsp;     pwd /c/Users/dstrus    You should be in /c/Users/yourusername.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xtbc18s3.github.io/setup-windows/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+  </channel>
+</rss>

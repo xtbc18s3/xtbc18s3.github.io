@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/</link>
+    <description>Recent content on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 13:53:46 -0400</lastBuildDate>
+    
+	<atom:link href="http://xtbc18s3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codewars</title>
+      <link>http://xtbc18s3.github.io/prereqs/codewars/</link>
+      <pubDate>Tue, 13 Mar 2018 13:53:46 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/codewars/</guid>
+      <description>TL;DR  Sign up at codewars.com using your GitHub account. Follow Dave Strus. Solve the problems on the list below. Email Davey or Dana when you&amp;rsquo;re done so we can review your solutions. Please include your Codewars username.  Welcome! Congratulations on being accepted to the 2018 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.</description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://xtbc18s3.github.io/setup-mac/chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/chrome/</guid>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://xtbc18s3.github.io/setup-windows/chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/chrome/</guid>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
+    </item>
+    
+    <item>
+      <title>VS Code Extensions</title>
+      <link>http://xtbc18s3.github.io/tools/code-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/code-extensions/</guid>
+      <description>Visual Studio Code  image/svg+xml      VS Code Extensions
+ We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.
+Recommended Extensions for VS Code To install an extension, launch VS Code Quick Open (⌘+P), paste the command, and press enter.
+vscode-icons ext install vscode-icons
+vscode-icons shows icons in the sidebar that correspond to the file type.</description>
+    </item>
+    
+    <item>
+      <title>VS Code Keybindings</title>
+      <link>http://xtbc18s3.github.io/tools/code-keybindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/code-keybindings/</guid>
+      <description>Visual Studio Code  image/svg+xml      VS Code Keybindings
+ It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.
+Custom Keybindings for VS Code Open your Keyboard Shortcuts from the menu (Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts) or by using (what else?</description>
+    </item>
+    
+    <item>
+      <title>HTML &amp; CSS</title>
+      <link>http://xtbc18s3.github.io/prereqs/html-css/</link>
+      <pubDate>Tue, 13 Mar 2018 14:58:11 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/html-css/</guid>
+      <description>You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the structure of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.
+Cascading Stylesheets (CSS) define the presentation of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>http://xtbc18s3.github.io/setup-mac/editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/editor/</guid>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one.</description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>http://xtbc18s3.github.io/setup-windows/editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/editor/</guid>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft. It was built from the ground up to be cross-platform. It&amp;rsquo;s only three years old, but it&amp;rsquo;s impressive.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://xtbc18s3.github.io/prereqs/javascript/</link>
+      <pubDate>Tue, 13 Mar 2018 15:13:51 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/javascript/</guid>
+      <description>React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.
+Basic Learn JavaScript by Codecademy Learn JavaScript is another free, interactive tutorial that replaced an older Codecademy course.
+Intermediate JavaScript 30 by Wes Bos I highly recommend completing JavaScript 30 by Wes Bos.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/setup-windows/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git  for Windows  Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?)
+There are several ways to go about making Git usable on Windows, but my favorite is to install the aptly-named Git for Windows. The great thing about Git for Windows is that it comes with Git Bash&amp;mdash;a UNIX-style shell.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/setup-mac/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.
+macOS comes with Terminal.app, which you can find at /Applications/Utilities/Terminal.app or by searching for Terminal in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.
+iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/prereqs/git/</link>
+      <pubDate>Tue, 13 Mar 2018 16:21:52 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/git/</guid>
+      <description>We will be using Git for source code management&amp;mdash;and hosting our repositories on GitHub&amp;mdash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.
+Note Once again, one of these courses or the other should be plenty of preparation.
+  Learn Git from Codecademy Learn Git is a free interactive course from Codecademy covering the fundamentals of version control with Git. As with the previous lessons, this can be completed entirely within the browser.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/setup-mac/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git   Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:
+      user@localhost ~ &amp;nbsp;     git --version git version 2.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xtbc18s3.github.io/setup-mac/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/node/</guid>
+      <description>Node.js  If you installed Homebrew in the previous step, use it to install Node.js:
+      user@localhost ~ &amp;nbsp;   brew install node   
+If not, you can click one of the big, green download links on the Node.js web site.
+ Download Node.js  Note Node version numbers are confusing, but either the LTS version (8.11.1 as of this writing) or the Current version (10.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/setup-windows/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using the command line a fair amount in class. We&amp;rsquo;ll be demonstrating everything on macOS, which is UNIX-based. Now that you&amp;rsquo;ve installed Git Bash, you too have a UNIX-like shell and can run the same commands.
+As noted during setup, Git Bash can run in the default cmd.exe terminal, but it also comes with MinTTY. If you&amp;rsquo;re on Windows 10, cmd.exe isn&amp;rsquo;t quite the inexcusable piece of crap that it used to be.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/prereqs/terminal/</link>
+      <pubDate>Tue, 13 Mar 2018 16:25:41 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/terminal/</guid>
+      <description>(Optional) Although it&amp;rsquo;s far from the focus of the course, we&amp;rsquo;ll be using the command-line in class, and you&amp;rsquo;ll be better off if you&amp;rsquo;re not trying to learn it from scratch alongside React.
+Command Line Power User by Wes Bos Command Line Power User series by Wes Bos is an excellent introduction to the *NIX style command line. This free course requires an email sign up, but all the videos are on YouTube if you want to hunt for them.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xtbc18s3.github.io/setup-windows/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/node/</guid>
+      <description>Node.js  Installation To install Node.js, click one of the big, green download links on the web site.
+ Download Node.js 
+Note Node version numbers are confusing, but either the LTS version (8.11.1 as of this writing) or the Current version (10.0.0) will do for our purposes.
+  Testing your installation After Node is installed, close Hyper and reopen it. That way, node and other related commands will be available to you from any folder.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xtbc18s3.github.io/setup-mac/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd. You should be in /Users/yourusername. If not, you can switch to that directory with the cd command, passing in the directory you want to switch to.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xtbc18s3.github.io/setup-windows/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key In Hyper, make sure you&amp;rsquo;re in your home directory. You will be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd
+     WINGW64:/c/Users/user &amp;nbsp;     pwd /c/Users/dstrus    You should be in /c/Users/yourusername.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xtbc18s3.github.io/setup-mac/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xtbc18s3.github.io/setup-windows/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-windows/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Desktop</title>
+      <link>http://xtbc18s3.github.io/tools/github-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/github-desktop/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo &amp;nbsp;Desktop
+ GitHub Desktop is my favorite of the free GUIs for Git. It&amp;rsquo;s made by GitHub, but there&amp;rsquo;s nothing tying it to their service. It&amp;rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&amp;rsquo;s guide: Getting your project on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

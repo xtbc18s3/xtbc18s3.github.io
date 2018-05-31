@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup for Mac on Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/setup-mac/</link>
+    <description>Recent content in Setup for Mac on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://xtbc18s3.github.io/setup-mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://xtbc18s3.github.io/setup-mac/chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/chrome/</guid>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>http://xtbc18s3.github.io/setup-mac/editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/editor/</guid>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/setup-mac/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.
+macOS comes with Terminal.app, which you can find at /Applications/Utilities/Terminal.app or by searching for Terminal in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.
+iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/setup-mac/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git   Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:
+      user@localhost ~ &amp;nbsp;     git --version git version 2.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xtbc18s3.github.io/setup-mac/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/node/</guid>
+      <description>Node.js  If you installed Homebrew in the previous step, use it to install Node.js:
+      user@localhost ~ &amp;nbsp;   brew install node   
+If not, you can click one of the big, green download links on the Node.js web site.
+ Download Node.js  Note Node version numbers are confusing, but either the LTS version (8.11.1 as of this writing) or the Current version (10.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xtbc18s3.github.io/setup-mac/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd. You should be in /Users/yourusername. If not, you can switch to that directory with the cd command, passing in the directory you want to switch to.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xtbc18s3.github.io/setup-mac/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/setup-mac/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+  </channel>
+</rss>

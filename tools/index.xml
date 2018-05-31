@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/tools/</link>
+    <description>Recent content in Tools on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://xtbc18s3.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code Extensions</title>
+      <link>http://xtbc18s3.github.io/tools/code-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/code-extensions/</guid>
+      <description>Visual Studio Code  image/svg+xml      VS Code Extensions
+ We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.
+Recommended Extensions for VS Code To install an extension, launch VS Code Quick Open (⌘+P), paste the command, and press enter.
+vscode-icons ext install vscode-icons
+vscode-icons shows icons in the sidebar that correspond to the file type.</description>
+    </item>
+    
+    <item>
+      <title>VS Code Keybindings</title>
+      <link>http://xtbc18s3.github.io/tools/code-keybindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/code-keybindings/</guid>
+      <description>Visual Studio Code  image/svg+xml      VS Code Keybindings
+ It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.
+Custom Keybindings for VS Code Open your Keyboard Shortcuts from the menu (Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts) or by using (what else?</description>
+    </item>
+    
+    <item>
+      <title>GitHub Desktop</title>
+      <link>http://xtbc18s3.github.io/tools/github-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/tools/github-desktop/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo &amp;nbsp;Desktop
+ GitHub Desktop is my favorite of the free GUIs for Git. It&amp;rsquo;s made by GitHub, but there&amp;rsquo;s nothing tying it to their service. It&amp;rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&amp;rsquo;s guide: Getting your project on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prerequisites on Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/prereqs/</link>
+    <description>Recent content in Prerequisites on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 13:49:12 -0400</lastBuildDate>
+    
+	<atom:link href="http://xtbc18s3.github.io/prereqs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codewars</title>
+      <link>http://xtbc18s3.github.io/prereqs/codewars/</link>
+      <pubDate>Tue, 13 Mar 2018 13:53:46 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/codewars/</guid>
+      <description>TL;DR  Sign up at codewars.com using your GitHub account. Follow Dave Strus. Solve the problems on the list below. Email Davey or Dana when you&amp;rsquo;re done so we can review your solutions. Please include your Codewars username.  Welcome! Congratulations on being accepted to the 2018 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.</description>
+    </item>
+    
+    <item>
+      <title>HTML &amp; CSS</title>
+      <link>http://xtbc18s3.github.io/prereqs/html-css/</link>
+      <pubDate>Tue, 13 Mar 2018 14:58:11 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/html-css/</guid>
+      <description>You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the structure of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.
+Cascading Stylesheets (CSS) define the presentation of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://xtbc18s3.github.io/prereqs/javascript/</link>
+      <pubDate>Tue, 13 Mar 2018 15:13:51 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/javascript/</guid>
+      <description>React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.
+Basic Learn JavaScript by Codecademy Learn JavaScript is another free, interactive tutorial that replaced an older Codecademy course.
+Intermediate JavaScript 30 by Wes Bos I highly recommend completing JavaScript 30 by Wes Bos.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xtbc18s3.github.io/prereqs/git/</link>
+      <pubDate>Tue, 13 Mar 2018 16:21:52 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/git/</guid>
+      <description>We will be using Git for source code management&amp;mdash;and hosting our repositories on GitHub&amp;mdash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.
+Note Once again, one of these courses or the other should be plenty of preparation.
+  Learn Git from Codecademy Learn Git is a free interactive course from Codecademy covering the fundamentals of version control with Git. As with the previous lessons, this can be completed entirely within the browser.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xtbc18s3.github.io/prereqs/terminal/</link>
+      <pubDate>Tue, 13 Mar 2018 16:25:41 -0400</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/prereqs/terminal/</guid>
+      <description>(Optional) Although it&amp;rsquo;s far from the focus of the course, we&amp;rsquo;ll be using the command-line in class, and you&amp;rsquo;ll be better off if you&amp;rsquo;re not trying to learn it from scratch alongside React.
+Command Line Power User by Wes Bos Command Line Power User series by Wes Bos is an excellent introduction to the *NIX style command line. This free course requires an email sign up, but all the videos are on YouTube if you want to hunt for them.</description>
+    </item>
+    
+  </channel>
+</rss>

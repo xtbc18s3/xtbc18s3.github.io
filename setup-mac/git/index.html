@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.37.1" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Git :: Xtern Bootcamp 2018</title>
+    
+    
+    <link href="/css/nucleus.css?1527785910" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1527785910" rel="stylesheet">
+    <link href="/css/hybrid.css?1527785910" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1527785910" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1527785910" rel="stylesheet">
+    <link href="/css/auto-complete.css?1527785910" rel="stylesheet">
+    <link href="/css/theme.css?1527785910" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1527785910" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1527785910"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+
+<link href="/css/prism.css" rel="stylesheet">
+<link href="/css/xtern.css" rel="stylesheet">
+
+  </head>
+  <body class="" data-url="/setup-mac/git/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="/"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.59 81.08"><defs><style>.cls-1{fill:#fff;}</style></defs><title>xtbc-logo-white</title><path class="cls-1" d="M774.4,841.29l-5-4.94-5,4.94-.4-.4,5-4.95-5-4.94.4-.4,5,4.94,5-4.94.41.4-5,4.94,5,4.95Zm7.77-9.15L778.58,836l3.59,3.33v9.44h-8.92l-3.87-3.59-3.33,3.59h-9.46v-9.49l3.61-3.31-3.61-3.87v-8.92h9.46l3.33,3.58,3.86-3.58h8.93ZM764.89,846l4.49-4.73,5,4.73h5v-5.62L774.89,836l4.54-5v-5.13h-5l-5,4.65-4.49-4.63h-5.54v5l4.76,5-4.76,4.49V846Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M522.62,886h-7.78a1.19,1.19,0,0,1-1.1-.51,1.25,1.25,0,0,1,0-1.22l12.18-24.12-11.78-22.93a1.18,1.18,0,0,1,0-1.18,1.16,1.16,0,0,1,1.09-.55h7.55a2.5,2.5,0,0,1,2.59,1.65L532.83,854h.31l7.39-16.89a2.61,2.61,0,0,1,2.51-1.65h7.7a1.24,1.24,0,0,1,1.14.59,1.19,1.19,0,0,1,0,1.22L540,860.1l12.17,24a1.3,1.3,0,0,1,.08,1.3,1.27,1.27,0,0,1-1.18.51H543.2a2.29,2.29,0,0,1-2.28-1.58l-7.78-17h-.31l-7.85,17A2.44,2.44,0,0,1,522.62,886Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M595.29,835.44H559.47c-1.32,0-2,.55-2,1.65v5.34c0,1.1.67,1.65,2,1.65h10.81c.69,0,1,.29,1,.87V884.3c0,1.1.69,1.65,2.08,1.65h8c1.33,0,2-.55,2-1.65V845q0-.87,1.14-.87h10.8c1.33,0,2-.55,2-1.65v-5.34C597.28,836,596.62,835.44,595.29,835.44Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M714.66,874.93V855.16H715L727.25,874l18.68-1.4v-35.5c0-1.1-.67-1.65-2-1.65h-7.87c-1.32,0-2,.55-2,1.65v29.22h-.38l-19.14-29.77a2.85,2.85,0,0,0-2.65-1.1H704.8c-1.32,0-2,.55-2,1.65v38.72Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M662.65,878.82V868.2c0-.58.37-.87,1.13-.87h6.35L676,877.82l12.45-.93-6-10.34v-.32q8.43-2.9,8.43-11.78v-6.12q0-6.14-4.17-9.51t-11.56-3.38H652.6c-1.32,0-2,.55-2,1.65v42.63Zm0-33.87c0-.58.34-.87,1-.87H673a7.33,7.33,0,0,1,4.46,1.1,4.24,4.24,0,0,1,1.42,3.54v6.12a4,4,0,0,1-1.42,3.42,7.5,7.5,0,0,1-4.46,1.06h-9.28c-.7,0-1-.29-1-.86Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M639.72,880.53V879q0-1.65-1.89-1.65H618c-.75,0-1.13-.29-1.13-.87V865.53c0-.58.38-.87,1.13-.87h16.21c1.32,0,2-.55,2-1.65v-5.34c0-1.1-.67-1.65-2-1.65H618c-.75,0-1.13-.28-1.13-.86V845c0-.58.38-.87,1.13-.87h19.81q1.89,0,1.89-1.65v-5.34q0-1.65-1.89-1.65h-31c-1.32,0-2,.55-2,1.65v46Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M640.5,903.91V889.85a.29.29,0,0,1,.32-.32h5.37a3.36,3.36,0,0,1,2.47.88,3.33,3.33,0,0,1,.89,2.46v1.25a2.5,2.5,0,0,1-1.92,2.63,2.18,2.18,0,0,1,1.49.77,2.67,2.67,0,0,1,.61,1.84v1.53a3.29,3.29,0,0,1-.9,2.46,3.43,3.43,0,0,1-2.48.88h-5.53A.29.29,0,0,1,640.5,903.91Zm1.9-7.87h3.51c1.35,0,2-.64,2-1.94v-1.21A1.72,1.72,0,0,0,646,891H642.4c-.16,0-.23.07-.23.23v4.66C642.17,896,642.24,896,642.4,896Zm0,6.77h3.74a1.73,1.73,0,0,0,2-1.94v-1.49c0-1.29-.7-1.94-2.1-1.94H642.4c-.16,0-.23.07-.23.2v4.94A.2.2,0,0,0,642.4,902.81Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M660.06,904.23h-2.72a3.1,3.1,0,0,1-3.38-3.39v-7.93a3.1,3.1,0,0,1,3.38-3.38h2.72a3.12,3.12,0,0,1,3.38,3.38v7.93a3.13,3.13,0,0,1-3.38,3.39Zm-2.53-1.47h2.33a1.72,1.72,0,0,0,1.92-2V893a1.73,1.73,0,0,0-1.92-2h-2.33c-1.27,0-1.9.67-1.9,2v7.8C655.63,902.1,656.26,902.76,657.53,902.76Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M673.84,904.23h-2.72a3.41,3.41,0,0,1-2.48-.89,3.37,3.37,0,0,1-.9-2.5v-7.93a3.37,3.37,0,0,1,.9-2.49,3.41,3.41,0,0,1,2.48-.89h2.72a3.13,3.13,0,0,1,3.39,3.38v7.93a3.14,3.14,0,0,1-3.39,3.39Zm-2.53-1.47h2.33a1.72,1.72,0,0,0,1.92-2V893a1.73,1.73,0,0,0-1.92-2h-2.33c-1.27,0-1.9.67-1.9,2v7.8C669.41,902.1,670,902.76,671.31,902.76Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M685.34,904.23h-1a.29.29,0,0,1-.32-.32V891.2c0-.14-.08-.21-.23-.21h-3.11c-.23,0-.34-.1-.34-.32v-.82c0-.21.11-.32.34-.32H689a.3.3,0,0,1,.34.32v.82c0,.22-.12.32-.34.32h-3.11c-.15,0-.23.07-.23.21v12.71A.29.29,0,0,1,685.34,904.23Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M698.55,904.23h-2.74a3.38,3.38,0,0,1-2.48-.89,3.34,3.34,0,0,1-.91-2.5v-7.93a3.33,3.33,0,0,1,.91-2.49,3.38,3.38,0,0,1,2.48-.89h2.74a3.1,3.1,0,0,1,3.38,3.38V894a.28.28,0,0,1-.32.32h-1a.28.28,0,0,1-.32-.32v-1a1.73,1.73,0,0,0-1.92-2H696c-1.27,0-1.9.67-1.9,2v7.8c0,1.32.63,2,1.9,2h2.35a1.72,1.72,0,0,0,1.92-2v-1.06a.29.29,0,0,1,.32-.32h1a.29.29,0,0,1,.32.32v1.12a3.1,3.1,0,0,1-3.38,3.39Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M706.34,904.23H705.2c-.2,0-.27-.11-.21-.32l4.28-14.06a.41.41,0,0,1,.43-.32h1.65a.41.41,0,0,1,.43.32l4.27,14.06c.07.21,0,.32-.2.32h-1.17c-.16,0-.27-.11-.32-.32l-1.07-3.34h-5.53l-1.08,3.34C706.62,904.12,706.51,904.23,706.34,904.23Zm4.14-13-2.36,7.91h4.8l-2.35-7.91Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M730,889.53h1.86a.28.28,0,0,1,.31.32v14.06a.28.28,0,0,1-.31.32h-1a.29.29,0,0,1-.32-.32V891.77h-.09l-3.54,9a.45.45,0,0,1-.42.3h-1.09a.38.38,0,0,1-.39-.3l-3.61-9h-.09v12.16c0,.21-.1.32-.3.32h-1a.29.29,0,0,1-.32-.32V889.85a.29.29,0,0,1,.32-.32h1.85a.27.27,0,0,1,.28.18l3.75,9.47H726l3.75-9.47A.24.24,0,0,1,730,889.53Z" transform="translate(-513.59 -823.14)"/><path class="cls-1" d="M738.25,904.23h-1a.28.28,0,0,1-.32-.32V889.85a.28.28,0,0,1,.32-.32h5.35a3.29,3.29,0,0,1,2.46.9,3.37,3.37,0,0,1,.9,2.48v2.54a3.33,3.33,0,0,1-.9,2.49,3.29,3.29,0,0,1-2.46.89h-3.78c-.15,0-.22.07-.22.21v4.87A.29.29,0,0,1,738.25,904.23Zm.54-6.88h3.55a1.72,1.72,0,0,0,1.92-2V893a1.73,1.73,0,0,0-1.92-2h-3.55c-.15,0-.22.07-.22.21v5.94C738.57,897.28,738.64,897.35,738.79,897.35Z" transform="translate(-513.59 -823.14)"/></svg></a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1527785910"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1527785910"></script>
+<script type="text/javascript">
+    
+        var baseurl = '\/';
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1527785910"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/prereqs/" title="Prerequisites" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/prereqs/">
+          Prerequisites
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/prereqs/codewars/" title="Codewars" class="dd-item ">
+        <a href="/prereqs/codewars/">
+        Codewars
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/prereqs/html-css/" title="HTML &amp; CSS" class="dd-item ">
+        <a href="/prereqs/html-css/">
+        HTML &amp; CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/prereqs/javascript/" title="JavaScript" class="dd-item ">
+        <a href="/prereqs/javascript/">
+        JavaScript
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/prereqs/git/" title="Git" class="dd-item ">
+        <a href="/prereqs/git/">
+        Git
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/prereqs/terminal/" title="Terminal" class="dd-item ">
+        <a href="/prereqs/terminal/">
+        Terminal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/setup-mac/" title="Setup for Mac" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/setup-mac/">
+          Setup for Mac
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/chrome/" title="Chrome" class="dd-item ">
+        <a href="/setup-mac/chrome/">
+        Chrome
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/editor/" title="Editor" class="dd-item ">
+        <a href="/setup-mac/editor/">
+        Editor
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/terminal/" title="Terminal" class="dd-item ">
+        <a href="/setup-mac/terminal/">
+        Terminal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/git/" title="Git" class="dd-item active">
+        <a href="/setup-mac/git/">
+        Git
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/node/" title="Node.js" class="dd-item ">
+        <a href="/setup-mac/node/">
+        Node.js
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/ssh/" title="SSH" class="dd-item ">
+        <a href="/setup-mac/ssh/">
+        SSH
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-mac/github/" title="GitHub" class="dd-item ">
+        <a href="/setup-mac/github/">
+        GitHub
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/setup-windows/" title="Setup for Windows" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/setup-windows/">
+          Setup for Windows
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/chrome/" title="Chrome" class="dd-item ">
+        <a href="/setup-windows/chrome/">
+        Chrome
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/editor/" title="Editor" class="dd-item ">
+        <a href="/setup-windows/editor/">
+        Editor
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/git/" title="Git" class="dd-item ">
+        <a href="/setup-windows/git/">
+        Git
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/terminal/" title="Terminal" class="dd-item ">
+        <a href="/setup-windows/terminal/">
+        Terminal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/node/" title="Node.js" class="dd-item ">
+        <a href="/setup-windows/node/">
+        Node.js
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/ssh/" title="SSH" class="dd-item ">
+        <a href="/setup-windows/ssh/">
+        SSH
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/setup-windows/github/" title="GitHub" class="dd-item ">
+        <a href="/setup-windows/github/">
+        GitHub
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tools/" title="Tools" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tools/">
+          Tools
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tools/code-extensions/" title="VS Code Extensions" class="dd-item ">
+        <a href="/tools/code-extensions/">
+        VS Code Extensions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tools/code-keybindings/" title="VS Code Keybindings" class="dd-item ">
+        <a href="/tools/code-keybindings/">
+        VS Code Keybindings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tools/github-desktop/" title="GitHub Desktop" class="dd-item ">
+        <a href="/tools/github-desktop/">
+        GitHub Desktop
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>from <a href="http://techpoint.org">TechPoint</a> and <a href="http://www.fretless.com">Fretless</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Xtern Bootcamp 2018</a> > <a href='/setup-mac/'>Setup for Mac</a> > Git
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#homebrew">Homebrew</a></li>
+<li><a href="#installing-git-with-homebrew">Installing Git with Homebrew</a></li>
+<li><a href="#configuring-git">Configuring Git</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Git</h1>
+          
+
+        
+
+
+
+
+<div class="page-heading"><div>
+
+
+<svg role="img" aria-labelledby="git-svg-title" id="git-logo-svg" data-name="git-logo-svg" xmlns="http://www.w3.org/2000/svg" width="218.37" height="91.21" viewBox="0 0 218.37 91.21">
+  <title id="git-svg-title">Git</title>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>git</title>
+  <path class="cls-1" d="M147.06,31.31a13.8,13.8,0,0,1,3.22,8.79c0,9.66-7.57,15.32-18.54,15.32a27.68,27.68,0,0,1-6.88-.78L122,59.25l8.53.52c15.06,1,23.93,1.4,23.93,13,0,10-8.79,15.67-23.93,15.67-15.75,0-21.76-4-21.76-10.88,0-3.92,1.74-6,4.79-8.88a5.8,5.8,0,0,1-3.83-5.74,7.8,7.8,0,0,1,2.53-5.31c1.57-1.65,3.31-3.31,5.39-5.22-4.26-2.09-7.48-6.61-7.48-13.06,0-10,6.61-16.88,19.93-16.88a29.86,29.86,0,0,1,8,.87h17v7.4ZM121.3,71c-1.13,1.39-2.26,2.87-2.26,4.61,0,3.48,4.44,4.53,10.53,4.53,5,0,11.92-.35,11.92-5,0-2.79-3.31-3-7.49-3.22Zm9.57-40c-4.79,0-8.35,2.35-8.35,8,0,4.26,2.35,7.22,8.1,7.22,4.87,0,8.18-2.87,8.18-7.4C138.79,33.75,135.83,31,130.87,31Z"/>
+  <path class="cls-1" d="M159.15,67.79V60.92l4.44-.61c1.22-.18,1.39-.44,1.39-1.74V33c0-1-.26-1.57-1.13-1.83l-4.7-1.66,1-7h18V58.57c0,1.39.08,1.57,1.39,1.74l4.44.61v6.87Zm11.23-52.3c-5,0-7.83-2.87-7.83-7.84S165.42,0,170.38,0s7.92,2.7,7.92,7.66S175.43,15.49,170.38,15.49Z"/>
+  <path class="cls-1" d="M218.37,64.42a34.81,34.81,0,0,1-14.19,3.48c-10.36,0-14.27-4.17-14.27-14V31.09c0-.52,0-.87-.7-.87h-6.09V22.47c7.66-.87,10.71-4.7,11.66-14.19h8.27V20.64c0,.61,0,.87.7.87H216v8.7h-13V51c0,5.14,1.22,7.14,5.92,7.14a20.72,20.72,0,0,0,7-1.39Z"/>
+  <path class="cls-1" d="M89.42,41.58,49.63,1.79a5.87,5.87,0,0,0-8.3,0l-8.26,8.26L43.55,20.54a7,7,0,0,1,8.83,8.89l10.1,10.1a7,7,0,1,1-4.18,3.94L48.87,34V58.83a7,7,0,1,1-5.74-.2v-25a6.91,6.91,0,0,1-2.29-1.52,7,7,0,0,1-1.5-7.64L29,14.11,1.72,41.4a5.87,5.87,0,0,0,0,8.3L41.51,89.49a5.87,5.87,0,0,0,8.3,0L89.42,49.88A5.87,5.87,0,0,0,89.42,41.58Z"/>
+</svg>
+
+
+
+</div></div>
+
+<p>Git is a distributed version control system. (But you knew that already, because you totally completed a <a href="/prereqs/git/">Git tutorial</a>&mdash;<em>right</em>?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:</p>
+
+<p>
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+  
+<pre>
+<span class="command-line-prompt"><span data-prompt="$"></span>
+</span
+><span class="terminal-commands">git --version
+<span class="output-line">git version 2.17.0</span>
+
+</span></pre>
+
+</div>
+</div></p>
+
+<p>If you see something like <code>git version 2.17.0</code>, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.17.0 (as of April 2, 2018), then your version of Git is out of date. Continue to the next step to install Homebrew.</p>
+
+<p>If your Git version is up-to-date, skip to the <a href="#configuring-git">Git Configuration</a> section.</p>
+
+
+  <div class="aside aside-info">
+  
+    <h4>GitHub Desktop</h4>
+    
+      <div class="emoji">
+        <i class="fa fa-github-alt"></i>
+      </div>
+    
+  
+  <div class="body">
+  <p><strong><a href="https://desktop.github.com/">GitHub Desktop</a></strong> is a very nice, free graphical interface for Git. Although we&rsquo;ll use Git from the command-line a great deal, we&rsquo;ll also look at how GitHub Desktop can make certain tasks easier.</p>
+
+  </div>
+</div>
+
+
+<h2 id="homebrew">Homebrew</h2>
+
+<p><strong><a href="http://brew.sh">Homebrew</a></strong> is a package manager for macOS. That is, it manages the installation of certain software&mdash;especially UNIX tools&mdash;and the installed versions of that software.</p>
+
+<p>Install Homebrew with the following command:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34;
+</span></pre>
+
+</div>
+</div>
+
+<h2 id="installing-git-with-homebrew">Installing Git with Homebrew</h2>
+
+<p>If you do not have Git installed at all, or if your version is out of date, run the following command to install the latest version:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>brew install git
+</span></pre>
+
+</div>
+</div>
+
+<p>Now check your Git version again.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>git --version
+</span></pre>
+
+</div>
+</div>
+
+<p>You should see an up-to-date version number.</p>
+
+<p>The next time a new version of Git is released, just type the following commands:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span></span>brew update           # This updates Homebrew so it knows about the latest versions.
+brew upgrade git      # This upgrades Git itself.
+</span></pre>
+
+</div>
+</div>
+
+<h2 id="configuring-git">Configuring Git</h2>
+
+<p>Next, tell Git what name and email address it should use to sign code that you&rsquo;ve authored. While you&rsquo;re at it, tell it to use Code as the editor. Enter the following commands, substituting your actual name and email address:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span></span>git config --global user.name &#34;Your Full Name&#34;
+git config --global user.email &#34;youremailaddress@example.com&#34;
+git config --global core.editor &#34;code --wait&#34;
+</span></pre>
+
+</div>
+</div>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/setup-mac/terminal/" title="Terminal"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/setup-mac/node/" title="Node.js" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1527785910"></script>
+    <script src="/js/perfect-scrollbar.min.js?1527785910"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1527785910"></script>
+    <script src="/js/jquery.sticky.js?1527785910"></script>
+    <script src="/js/featherlight.min.js?1527785910"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1527785910"></script>
+    <script src="/js/highlight.pack.js?1527785910"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1527785910"></script>
+    <script src="/js/learn.js?1527785910"></script>
+    <script src="/js/hugo-learn.js?1527785910"></script>
+
+    <link href="/mermaid/mermaid.css?1527785910" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1527785910"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
