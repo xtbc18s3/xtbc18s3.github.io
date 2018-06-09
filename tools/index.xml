@@ -19,8 +19,8 @@
       <description>Visual Studio Code  image/svg+xml      VS Code Extensions
  We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.
 Recommended Extensions for VS Code To install an extension, launch VS Code Quick Open (⌘+P), paste the command, and press enter.
-vscode-icons ext install vscode-icons
-vscode-icons shows icons in the sidebar that correspond to the file type.</description>
+ESLint ext install vscode-eslint
+Check JavaScript for errors and style violations as you edit.</description>
     </item>
     
     <item>
