@@ -39,6 +39,18 @@
     </item>
     
     <item>
+      <title>Day 1: Introduction</title>
+      <link>http://xtbc18s3.github.io/week1/day1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week1/day1/</guid>
+      <description>Monday, June 25, 2018
+Lecture Videos Morning:
+ Playlist | Day 1, part 1  Afternoon:
+ [Playlist]() | [Day 1, part 1]()  Topics  History of JavaScript and the Web Getting the most out of a coding bootcamp Mozilla Developer Network (MDN) - An excellent documentation and learning resource for all your HTML/CSS/JS needs Function Hoisting (MDN) Starting a project with git Anatomy of an HTML element (tags, attributes, text content) Basic CSS selector syntax  Element name (div, h1, p, etc.</description>
+    </item>
+    
+    <item>
       <title>VS Code Extensions</title>
       <link>http://xtbc18s3.github.io/tools/code-extensions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Week I on Xtern Bootcamp 2018</title>
+    <link>http://xtbc18s3.github.io/week1/</link>
+    <description>Recent content in Week I on Xtern Bootcamp 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://xtbc18s3.github.io/week1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Day 1: Introduction</title>
+      <link>http://xtbc18s3.github.io/week1/day1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week1/day1/</guid>
+      <description>Monday, June 25, 2018
+Lecture Videos Morning:
+ Playlist | Day 1, part 1  Afternoon:
+ [Playlist]() | [Day 1, part 1]()  Topics  History of JavaScript and the Web Getting the most out of a coding bootcamp Mozilla Developer Network (MDN) - An excellent documentation and learning resource for all your HTML/CSS/JS needs Function Hoisting (MDN) Starting a project with git Anatomy of an HTML element (tags, attributes, text content) Basic CSS selector syntax  Element name (div, h1, p, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
