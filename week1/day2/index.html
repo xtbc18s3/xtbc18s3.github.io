@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Week I :: Xtern Bootcamp 2018</title>
+    <title>Day 2: Git and The DOM :: Xtern Bootcamp 2018</title>
     
     
     <link href="/css/nucleus.css?1530028202" rel="stylesheet">
@@ -36,7 +36,7 @@
 <link href="/css/xtern.css" rel="stylesheet">
 
   </head>
-  <body class="" data-url="/week1/">
+  <body class="" data-url="/week1/day2/">
     <nav id="sidebar" class="">
 
 
@@ -623,7 +623,7 @@
     
     <li data-nav-id="/week1/" title="Week I" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/week1/">
@@ -665,7 +665,7 @@
  
   
     
-      <li data-nav-id="/week1/day2/" title="Day 2: Git and The DOM" class="dd-item ">
+      <li data-nav-id="/week1/day2/" title="Day 2: Git and The DOM" class="dd-item active">
         <a href="/week1/day2/">
         Day 2: Git and The DOM
         
@@ -717,6 +717,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -725,7 +727,13 @@
             
           
           
-            <a href='/'>Xtern Bootcamp 2018</a> > Week I
+            
+            
+          
+          
+            <a href='/'>Xtern Bootcamp 2018</a> > <a href='/week1/'>Week I</a> > Day 2: Git and The DOM
+          
+         
           
          
           
@@ -733,14 +741,50 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
+<ul>
+<li><a href="#git">Git</a></li>
+<li><a href="#dom">DOM</a></li>
+<li><a href="#other-topics">Other Topics</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li>
+<ul>
+<li><a href="#template-literals">Template literals</a></li>
+<li><a href="#google-fonts">Google Fonts</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#presentations">Presentations</a></li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li><a href="#chrismess">Chrismess</a></li>
+</ul></li>
+<li><a href="#homework">Homework</a></li>
+<li><a href="#bonus-credit">Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Day 2: Git and The DOM</h1>
           
 
         
@@ -748,17 +792,154 @@
 
 
 
-<h1 id="week-one">Week One</h1>
+<p><date>Tuesday, June 26, 2018</date></p>
 
-<p>An overview of the course and web technologies, some vanilla JavaScript, and basic DOM manipulation.</p>
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V">Playlist</a> | <a href="https://www.youtube.com/watch?v=1-CvNYMy_hY&amp;index=9&amp;list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&amp;t=0s">Day 2, part 1</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | [Day 2, part 1]()</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<h3 id="git">Git</h3>
+
+<ul>
+<li><a href="http://rogerdudler.github.io/git-guide/">Git Guide</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics">Git Basics</a></li>
+<li><a href="https://hackernoon.com/understanding-git-fcffd87c15a3">Understanding Git (part 1): Explain It Like I&rsquo;m Five</a></li>
+</ul>
+
+<div class="img github-flow"></div>
+
+<h3 id="dom">DOM</h3>
+
+<ul>
+<li>Basic DOM manipulation
+
+<ul>
+<li><code>document.querySelector</code>/<code>document.querySelectorAll</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">MDN Docs</a></li>
+<li><code>.textContent</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent">MDN Docs</a></li>
+<li><code>.innerHTML</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML">MDN Docs</a></li>
+</ul></li>
+<li>Developer console
+
+<ul>
+<li><code>console.log</code></li>
+<li><code>debugger</code> - <a href="https://www.w3schools.com/js/js_debugging.asp">W3Schools docs</a></li>
+</ul></li>
+<li>Basic <a href="https://www.w3schools.com/js/js_events.asp">event</a> handling
+
+<ul>
+<li><a href="https://www.kirupa.com/html5/javascript_events.htm">Events in JavaScript</a> - blog post with more detail than we discussed in class</li>
+<li><code>.addEventListener()</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">MDN docs</a></li>
+<li><code>.preventDefault()</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault">MDN Docs</a></li>
+<li><code>.target</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/target">MDN Docs</a></li>
+</ul></li>
+</ul>
+
+<h3 id="other-topics">Other Topics</h3>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Template literals</a></li>
+<li><a href="https://fonts.google.com/">Google Fonts</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h4 id="template-literals">Template literals</h4>
+
+<p>Template literals are string literals that allow embedded JavaScript expressions. Surround the string literal with `` (backticks), and use the variable placeholders inside <code>${ }</code> (a dollar sign and curly braces), and they will be replaced with their respective values.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+const name = 'Dana'
+const hometown = 'Youngstown, OH'
+
+console.log(`Hello, I'm ${name}. I'm from ${hometown}.`)   // "Hello, I'm Dana. I'm from Youngstown, OH."
+
+</code>
+</pre>
+
+
+
+<h4 id="google-fonts">Google Fonts</h4>
+
+<p>Google has a catalog of web fonts that you can use in your projects. You can import the font in your <code>index.css</code> file like the code below from <em>Chrismess</em>.</p>
+
+
+<pre class="line-numbers language-css" rel="css">
+<code class="language-css">
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+</code>
+</pre>
+
+
+
+<h2 id="presentations">Presentations</h2>
+
+<ul>
+<li><a target="_blank" href="/day02.pdf">Review: JavaScript Elements and Attributes</a></li>
+</ul>
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="chrismess">Chrismess</h3>
+
+<p><a href="https://github.com/xtbc18s3/chrismess">Morning</a> | <a href="https://github.com/xtbc18s3/chrismess/tree/afternoon">Afternoon</a></p>
+
+<h2 id="homework">Homework</h2>
+
+<ul>
+<li>Give the function <code>changeHeading</code> a more accurate name.</li>
+<li>Add a second field to the form.</li>
+<li>Display the value of that field in the list.</li>
+</ul>
+
+<h2 id="bonus-credit">Bonus Credit</h2>
+
+<ul>
+<li>Display the second field in a separate HTML element than the flick name. For example:</li>
+</ul>
+
+<pre><code class="language-html">&lt;li&gt;
+  &lt;span class=&quot;flickName&quot;&gt;Jurassic Work&lt;/span&gt;
+  &lt;span class=&quot;year&quot;&gt;2015&lt;/span&gt;
+&lt;/li&gt;
+</code></pre>
+
+<ul>
+<li>See if you can then style each field differently.</li>
+</ul>
+
+<h2 id="super-mega-bonus-credit">Super Mega Bonus Credit</h2>
+
+<ul>
+<li>Use more than one function. (Break <code>changeHeading</code> into multiple functions, as appropriate.)</li>
+</ul>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -1242,6 +1423,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1263,7 +1445,7 @@
 
 
         
-            <a class="nav nav-prev" href="/tools/github-desktop/" title="GitHub Desktop"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/week1/day1/" title="Day 1: Introduction"> <i class="fa fa-chevron-left"></i></a>
         
         
             <a class="nav nav-next" href="/week1/day1/" title="Day 1: Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
@@ -1296,3 +1478,4 @@
 
   </body>
 </html>
+
