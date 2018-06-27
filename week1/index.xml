@@ -34,5 +34,17 @@ Lecture Videos Morning:
  Playlist | Day 2, part 1  Topics Git  Git Guide Git Basics Understanding Git (part 1): Explain It Like I&amp;rsquo;m Five   DOM  Basic DOM manipulation  document.querySelector/document.querySelectorAll - MDN Docs .textContent - MDN Docs .innerHTML - MDN Docs  Developer console  console.log debugger - W3Schools docs  Basic event handling  Events in JavaScript - blog post with more detail than we discussed in class .</description>
     </item>
     
+    <item>
+      <title>Day 3: DOM, Arrays and Objects</title>
+      <link>http://xtbc18s3.github.io/week1/day3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week1/day3/</guid>
+      <description>Wednesday, June 27, 2018
+Lecture Videos Morning:
+ Playlist | Day 3, part 1  Afternoon:
+ Playlist | [Day 3, part 1]()  Topics  Creating and appending DOM Elements Flexbox and CSS Arrays and Objects ES2015+ (ES6) - Babel docs this  Flexbox  A Complete Guide to Flexbox Flexbox.io Flex-grow  CSS  CSS Tricks: A great place to search for tips and tricks in css  Examples DOM If we start with the following markup: &amp;lt;div id=&amp;quot;my-div&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;   We can add additional markup to it programmatically using JavaScript.</description>
+    </item>
+    
   </channel>
 </rss>

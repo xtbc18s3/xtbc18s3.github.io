@@ -130,6 +130,18 @@ Intermediate JavaScript 30 by Wes Bos I highly recommend completing JavaScript 3
     </item>
     
     <item>
+      <title>Day 3: DOM, Arrays and Objects</title>
+      <link>http://xtbc18s3.github.io/week1/day3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week1/day3/</guid>
+      <description>Wednesday, June 27, 2018
+Lecture Videos Morning:
+ Playlist | Day 3, part 1  Afternoon:
+ Playlist | [Day 3, part 1]()  Topics  Creating and appending DOM Elements Flexbox and CSS Arrays and Objects ES2015+ (ES6) - Babel docs this  Flexbox  A Complete Guide to Flexbox Flexbox.io Flex-grow  CSS  CSS Tricks: A great place to search for tips and tricks in css  Examples DOM If we start with the following markup: &amp;lt;div id=&amp;quot;my-div&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;   We can add additional markup to it programmatically using JavaScript.</description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>http://xtbc18s3.github.io/setup-windows/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
