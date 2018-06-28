@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Day 3: DOM, Arrays and Objects :: Xtern Bootcamp 2018</title>
+    <title>Day 4: Vanilla JS, localStorage, and Deployment :: Xtern Bootcamp 2018</title>
     
     
     <link href="/css/nucleus.css?1530201148" rel="stylesheet">
@@ -36,7 +36,7 @@
 <link href="/css/xtern.css" rel="stylesheet">
 
   </head>
-  <body class="" data-url="/week1/day3/">
+  <body class="" data-url="/week1/day4/">
     <nav id="sidebar" class="">
 
 
@@ -684,7 +684,7 @@
  
   
     
-      <li data-nav-id="/week1/day3/" title="Day 3: DOM, Arrays and Objects" class="dd-item active">
+      <li data-nav-id="/week1/day3/" title="Day 3: DOM, Arrays and Objects" class="dd-item ">
         <a href="/week1/day3/">
         Day 3: DOM, Arrays and Objects
         
@@ -703,7 +703,7 @@
  
   
     
-      <li data-nav-id="/week1/day4/" title="Day 4: Vanilla JS, localStorage, and Deployment" class="dd-item ">
+      <li data-nav-id="/week1/day4/" title="Day 4: Vanilla JS, localStorage, and Deployment" class="dd-item active">
         <a href="/week1/day4/">
         Day 4: Vanilla JS, localStorage, and Deployment
         
@@ -769,7 +769,7 @@
             
           
           
-            <a href='/'>Xtern Bootcamp 2018</a> > <a href='/week1/'>Week I</a> > Day 3: DOM, Arrays and Objects
+            <a href='/'>Xtern Bootcamp 2018</a> > <a href='/week1/'>Week I</a> > Day 4: Vanilla JS, localStorage, and Deployment
           
          
           
@@ -788,34 +788,20 @@
 <li><a href="#lecture-videos">Lecture Videos</a></li>
 <li><a href="#topics">Topics</a>
 <ul>
-<li>
-<ul>
-<li><a href="#flexbox">Flexbox</a></li>
-<li><a href="#css">CSS</a></li>
-</ul></li>
+<li><a href="#localstorage">localStorage</a></li>
+<li><a href="#deploying-to-github-pages">Deploying to GitHub Pages</a></li>
 </ul></li>
 <li><a href="#examples">Examples</a>
 <ul>
-<li>
-<ul>
-<li><a href="#dom">DOM</a></li>
-<li><a href="#arrays">Arrays</a></li>
-<li><a href="#objects">Objects</a></li>
+<li><a href="#localstorage-1">localStorage</a></li>
 </ul></li>
-<li><a href="#es2015-es6">ES2015+ (ES6+)</a></li>
-<li><a href="#this"><code>this</code></a></li>
-</ul></li>
-<li><a href="#presentations">Presentations</a></li>
 <li><a href="#projects">Projects</a>
 <ul>
-<li><a href="#codepen">CodePen</a></li>
 <li><a href="#chrismess">Chrismess</a></li>
 </ul></li>
 <li><a href="#homework">Homework</a>
 <ul>
-<li><a href="#bonus-credit">Bonus Credit</a></li>
 <li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
-<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -831,7 +817,7 @@
         
         <div id="body-inner">
           
-            <h1>Day 3: DOM, Arrays and Objects</h1>
+            <h1>Day 4: Vanilla JS, localStorage, and Deployment</h1>
           
 
         
@@ -839,223 +825,95 @@
 
 
 
-<p><date>Wednesday, June 27, 2018</date></p>
+<p><date>Thursday, June 28, 2018</date></p>
 
 <h2 id="lecture-videos">Lecture Videos</h2>
 
 <p>Morning:</p>
 
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V">Playlist</a> | <a href="https://www.youtube.com/watch?v=opAPsCrpPCs&amp;index=28&amp;t=0s&amp;list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V">Day 3, part 1</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V">Playlist</a> | <a href="https://www.youtube.com/watch?v=UwG60JJOnXU&amp;list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&amp;index=37">Day 4, part 1</a></li>
 </ul>
 
 <p>Afternoon:</p>
 
 <ul>
-<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | <a href="https://www.youtube.com/watch?v=xMJKM8_pyGM&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&amp;index=26">Day 3, part 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | [Day 4, part 1]()</li>
 </ul>
 
 <h2 id="topics">Topics</h2>
 
 <ul>
-<li>Creating and appending DOM Elements</li>
-<li>Flexbox and CSS</li>
-<li>Arrays and Objects</li>
-<li>ES2015+ (ES6) - <a href="https://babeljs.io/docs/en/learn/">Babel docs</a></li>
-<li><code>this</code></li>
-</ul>
-
-<h4 id="flexbox">Flexbox</h4>
+<li><a href="https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c"><code>this</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">.indexOf( )</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">.splice( )</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">.filter( )</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/closest">.closest( )</a></li>
+<li>Polyfills
 
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
-<li><a href="https://flexbox.io/">Flexbox.io</a></li>
-<li><a href="https://css-tricks.com/almanac/properties/f/flex-grow/">Flex-grow</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">Definition from MDN</a></li>
+<li><a href="https://remysharp.com/2010/10/08/what-is-a-polyfill">What is a Polyfill?</a></li>
+</ul></li>
+<li>CSS: <a href="https://fontawesome.com/">Font Awesome</a>, <a href="https://css-tricks.com/almanac/properties/t/transform/">transform</a>, <a href="https://css-tricks.com/almanac/properties/t/transition/">transition</a></li>
 </ul>
 
-<h4 id="css">CSS</h4>
+<h3 id="localstorage">localStorage</h3>
 
 <ul>
-<li><a href="https://css-tricks.com/">CSS Tricks</a>: A great place to search for tips and tricks in css</li>
+<li><a href="https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/">Using <code>localStorage</code></a></li>
+<li><code>JSON.stringify</code>
+
+<ul>
+<li><a href="http://www.dyn-web.com/tutorials/php-js/json/stringify.php">Using <code>JSON.stringify</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">API reference</a>, including optional arguments for whitelisting properties and transforming the data as it&rsquo;s stringified</li>
+</ul></li>
+<li><code>JSON.parse</code>
+
+<ul>
+<li><a href="http://www.dyn-web.com/tutorials/php-js/json/parse.php">Using <code>JSON.parse</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse">MDN Docs</a></li>
+</ul></li>
+</ul>
+
+<h3 id="deploying-to-github-pages">Deploying to GitHub Pages</h3>
+
+<ul>
+<li><a href="https://pages.github.com/">GitHub Pages</a></li>
+<li><a href="https://help.github.com/articles/what-is-github-pages/">What is GitHub Pages?</a></li>
 </ul>
 
 <h2 id="examples">Examples</h2>
 
-<h4 id="dom">DOM</h4>
+<h3 id="localstorage-1">localStorage</h3>
 
-<p>If we start with the following markup:
+<p><code>localStorage</code> is storage in your web browser that conforms to Web Storage API. It is scoped by domain, meaning other websites cannot access data stored by your website and vice versa. The data in <code>localStorage</code> persists in the browser until removed, even if the browser is closed and re-opened.</p>
 
-<pre class="line-numbers language-html" rel="html">
-<code class="language-html">
-
-&lt;div id=&quot;my-div&quot;&gt;&lt;/div&gt;
-
-</code>
-</pre>
-
-
-We can add additional markup to it programmatically using JavaScript.  One way is to create new HTML elements using <code>document.createElement</code>, and adding them by using <code>appendChild</code>.  Styling of the element can even be changed by manipulating the element&rsquo;s <code>style</code> property.</p>
+<p>To set an item, use <code>localStorage.setItem</code>, and retrieve data using <code>localStorage.getItem</code>. It is important to remember that values stored will always be strings, so it may be use necessary to use the <code>JSON.stringify</code> and <code>JSON.parse</code> methods to set and retrieve non-string data.  JSON stands for <strong>J</strong>ava<strong>S</strong>cript <strong>O</strong>bject <strong>N</strong>otation.  To learn more about JSON, click <a href="https://www.w3schools.com/js/js_json_intro.asp">here</a>.</p>
 
 
 <pre class="line-numbers language-js" rel="js">
 <code class="language-js">
 
-// create an h1 and modify text content and color
-const heading = document.createElement('h1')
-heading.textContent = "This is the best heading I've ever seen"
-heading.style.color = "red"
-
-// get a reference to the existing div and add the heading as a child element
-const div = document.querySelector('#my-div')
-div.appendChild(heading)
-
-</code>
-</pre>
-
-
-
-<p>This will produce the following markup:
-
-<pre class="line-numbers language-html" rel="html">
-<code class="language-html">
-
-&lt;div id=&quot;my-div&quot;&gt;
-  &lt;h1 style=&quot;color: red;&quot;&gt;This is the best heading I've ever seen&lt;/h1&gt;
-&lt;/div&gt;
-
-</code>
-</pre>
-
-</p>
-
-<h4 id="arrays">Arrays</h4>
-
-<p>Arrays are extremely useful data structures in JavaScript, as they can be easily iterated and transformed through methods like <code>map</code>, <code>filter</code>, and <code>reduce</code>.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-let arrayOfFood = ['pasta', 'chicken parmigiana', 'spaghetti', 'meatballs']
-
-const result = arrayOfFood.filter(food => food.length > 10)  // ['chicken parmigiana']
-
-
-</code>
-</pre>
-
-
-
-<h4 id="objects">Objects</h4>
-
-<p>Almost everything in JavaScript is an Object.  The easiest way to create new Objects is with the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer">object initializer</a>, more commonly known as &lsquo;object literal&rsquo; syntax.  Basically, use curly braces to make an object <code>{}</code> and fill in the properties that you want.</p>
-
-<p>Objects contain <code>key</code>/<code>value</code> pairs that allow you to set and retrieve values from them.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-// create a new object and assign some properties
 const myObject = {
-  prop1: 'Hello there',
-  prop2: 42
+  thisIsCool: true
 }
 
-// access the values in several ways, usually 'dot' or 'square bracket' notation
-myObject.prop1 // => 'Hello there'
-myObject['prop1'] //=> 'Hello there'
+localStorage.setItem('myObject', myObject)
+localStorage.getItem('myObject') // => "[object Object]"
+// localStorage saves the result of the implicit myObject.toString() call
 
-// new key/value pairs can also be assigned with these notations
-myObject.prop3 = 'New Value!'
-myObject['prop4'] = 'Newest Value!'
+localStorage.setItem('myObject', JSON.stringify(myObject))
+// calling JSON.stringify converts the object to a JSON string representation
+// so it can be stored in localStorage without loss of data
 
-console.log(myObject)
-// { 
-//   prop1: 'Hello there',
-//   prop2: 42,
-//   prop3: 'New Value!',
-//   prop4: 'Newest Value!'
-// }
+const retrievedObject = localStorage.getItem('myObject') // => "{"thisIsCool":true}"
+JSON.parse(retrievedObject) // => {thisIsCool: true}
+// JSON.parse converts the retrieved JSON string back into a JavaScript object
 
 </code>
 </pre>
 
 
-
-<p>We know that we can iterate through an Array using <code>map</code> or <code>forEach</code>.  Can we do something similar with objects?  There are a few ways to do it, but one of the newest and easiest is the <code>Object.keys</code> method.  It iterates through the enumerable properties of an object, returning an array of the property keys. Once we have an array of keys, we can <code>map</code> over <em>that</em> and access each of the object properties individually.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-const myObj = {
-  a: 'hi',
-  b: 42,
-  c: [1, 2, 3]
-}
-
-const myObjKeys = Object.keys(myObj)    // ['a', 'b', 'c']
-
-myObjKeys.map(key => myObj[key])        // ['hi', 42, [1, 2, 3]]
-
-</code>
-</pre>
-
-
-
-<h3 id="es2015-es6">ES2015+ (ES6+)</h3>
-
-<ul>
-<li>Inheritance (with the ES2015 <code>class</code> syntax; it&rsquo;s still <em>prototypal</em> inheritance though) - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">ES6 Classes</a></li>
-</ul>
-
-<h3 id="this"><code>this</code></h3>
-
-<p>The same function can have different values for <code>this</code> depending on how the function is called/invoked.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-const app = {
-  sayYeah() {
-    console.log(`Yeah, ${this}`)
-  },
-  
-  toString() {
-    return 'app object'
-  }
-}
-
-// When invoked as a method
-app.sayYeah() // "Yeah, app object"
-
-// When invoked as an event handler
-document
-  .querySelector('button')
-  .addEventListener('click', app.sayYeah)
-  // "Yeah, [object HTMLButtonElement]"
-
-// When manually set with bind
-app.sayYeah.bind('w00t')() // "Yeah, w00t"
-
-</code>
-</pre>
-
-
-
-<h2 id="presentations">Presentations</h2>
-
-<ul>
-<li><a target="_blank" href="/03-events-functions-arrays-objects.pdf">Day 3 Review</a></li>
-</ul>
 
 <h2 id="projects">Projects</h2>
-
-<h3 id="codepen">CodePen</h3>
-
-<p><a href="https://codepen.io/dstrus/professor/mKzKEj/">Morning</a> | <a href="https://codepen.io/dstrus/professor/bKmzeZ/">Afternoon</a></p>
 
 <h3 id="chrismess">Chrismess</h3>
 
@@ -1064,27 +922,13 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
 <h2 id="homework">Homework</h2>
 
 <ul>
-<li>In addition to building a list item and adding it to the DOM (as we are now), also store each flick in an array.</li>
-</ul>
-
-<h3 id="bonus-credit">Bonus Credit</h3>
-
-<ul>
-<li>Add a <em>delete</em> button to each list item that removes it from the list.</li>
+<li>Try the official <a href="https://reactjs.org/tutorial/tutorial.html">React Tutorial</a></li>
 </ul>
 
 <h3 id="super-mega-bonus-credit">Super Mega Bonus Credit</h3>
 
 <ul>
-<li>Remove the flick from the array as well.</li>
-</ul>
-
-<h3 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h3>
-
-<ul>
-<li>Add a <em>favorite</em> button to each flick as well that lets you mark your favorites.</li>
-<li>Display favorites differently.</li>
-<li>Be sure the favorites are recorded appropriately in the array.</li>
+<li>Have a great weekend!</li>
 </ul>
 
 
@@ -1592,7 +1436,6 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
             
                 
                     
-                    
                 
                 
 
@@ -1609,8 +1452,6 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1633,10 +1474,10 @@ app.sayYeah.bind('w00t')() // "Yeah, w00t"
 
 
         
-            <a class="nav nav-prev" href="/week1/day2/" title="Day 2: Git and The DOM"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/week1/day3/" title="Day 3: DOM, Arrays and Objects"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/week1/day4/" title="Day 4: Vanilla JS, localStorage, and Deployment" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/week1/day1/" title="Day 1: Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

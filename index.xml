@@ -175,6 +175,18 @@ Note Once again, one of these courses or the other should be plenty of preparati
     </item>
     
     <item>
+      <title>Day 4: Vanilla JS, localStorage, and Deployment</title>
+      <link>http://xtbc18s3.github.io/week1/day4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week1/day4/</guid>
+      <description>Thursday, June 28, 2018
+Lecture Videos Morning:
+ Playlist | Day 4, part 1  Afternoon:
+ Playlist | [Day 4, part 1]()  Topics  this .indexOf( ), .splice( ), .filter( ), .closest( ) Polyfills  Definition from MDN What is a Polyfill?  CSS: Font Awesome, transform, transition  localStorage  Using localStorage JSON.stringify  Using JSON.stringify API reference, including optional arguments for whitelisting properties and transforming the data as it&amp;rsquo;s stringified  JSON.</description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>http://xtbc18s3.github.io/setup-mac/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
