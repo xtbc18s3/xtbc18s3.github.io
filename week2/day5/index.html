@@ -12,17 +12,17 @@
     <title>Day 5: Intro to React :: Xtern Bootcamp 2018</title>
     
     
-    <link href="/css/nucleus.css?1530546241" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1530546241" rel="stylesheet">
-    <link href="/css/hybrid.css?1530546241" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1530546241" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1530546241" rel="stylesheet">
-    <link href="/css/auto-complete.css?1530546241" rel="stylesheet">
-    <link href="/css/theme.css?1530546241" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1530546241" rel="stylesheet">
+    <link href="/css/nucleus.css?1530570806" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1530570806" rel="stylesheet">
+    <link href="/css/hybrid.css?1530570806" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1530570806" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1530570806" rel="stylesheet">
+    <link href="/css/auto-complete.css?1530570806" rel="stylesheet">
+    <link href="/css/theme.css?1530570806" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1530570806" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1530546241"></script>
+    <script src="/js/jquery-2.x.min.js?1530570806"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1530546241"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1530546241"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1530570806"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1530570806"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1530546241"></script>
+<script type="text/javascript" src="/js/search.js?1530570806"></script>
 
     
   </div>
@@ -850,6 +850,10 @@
 <li><a href="#props">Props</a></li>
 <li><a href="#state">State</a></li>
 <li><a href="#modules">Modules</a></li>
+<li><a href="#create-react-app"><code>create-react-app</code></a></li>
+<li><a href="#stateless-functional-components">Stateless Functional Components</a></li>
+<li><a href="#property-initializers">Property initializers</a></li>
+<li><a href="#property-initializers-arrow-functions">Property initializers + arrow functions</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#presentations">Presentations</a></li>
@@ -903,7 +907,7 @@
 <p>Afternoon:</p>
 
 <ul>
-<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | [Day 5, part 1]()</li>
+<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | <a href="https://www.youtube.com/watch?v=vM5LX8tfSOM&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG&amp;index=49">Day 5, part 1</a></li>
 </ul>
 
 <h2 id="topics">Topics</h2>
@@ -925,6 +929,15 @@
 <li>Props - <a href="https://facebook.github.io/react/docs/components-and-props.html">Docs: Components and Props</a></li>
 <li>State - <a href="https://facebook.github.io/react/docs/state-and-lifecycle.html">Docs: State and Lifecycle</a></li>
 </ul></li>
+<li><code>create-react-app</code></li>
+<li>Stateless Functional Components
+
+<ul>
+<li><a href="http://javascriptplayground.com/blog/2017/03/functional-stateless-components-react/">Stateless Functional Components in React</a></li>
+<li><a href="https://tylermcginnis.com/functional-components-vs-stateless-functional-components-vs-stateless-components/">Functional Components vs. Stateless Functional Components vs. Stateless Components</a></li>
+<li><a href="https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc">Nine Wins You Might Have Overlooked</a></li>
+</ul></li>
+<li>Property initializers (and arrow functions)</li>
 </ul>
 
 <h2 id="examples">Examples</h2>
@@ -1133,6 +1146,120 @@ export default App
 
 
 
+<h4 id="create-react-app"><code>create-react-app</code></h4>
+
+<ul>
+<li><a href="https://github.com/facebook/create-react-app">Documentation/README</a></li>
+</ul>
+
+<h4 id="stateless-functional-components">Stateless Functional Components</h4>
+
+<p>Not every React Component needs to have state.  Many simply render a bit of <code>props</code> and UI.  For such components, we don&rsquo;t need to instantiate a whole class that inherits from <code>React.Component</code>, we can simply write a function that accepts <code>props</code> as an argument and returns the markup we need.</p>
+
+<p>For instance, in the previous example, the <code>Person</code> component can easily be re-written as a Stateless Functional Component.</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+function Person (props) {
+  return (
+    &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+  )
+}
+
+// Or...
+
+const Person = (props) => &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+
+</code>
+</pre>
+
+
+
+<h4 id="property-initializers">Property initializers</h4>
+
+
+  <div class="aside aside-info">
+  
+    <h4>Subject to minor changes</h4>
+    
+  
+  <div class="body">
+  <p><a href="https://github.com/tc39/proposal-class-public-fields">Property initializers</a> are a <a href="https://tc39.github.io/process-document/">Stage 3 proposal</a> for ECMAScript, meaning that they&rsquo;re a candidate, but requires further refinement and feedback from implementations and users before it becomes part of the standard. Facebook itself is already using these techniques in production, however.</p>
+
+  </div>
+</div>
+
+
+<p>From the proposal:</p>
+
+<blockquote>
+<p>&ldquo;Class instance fields&rdquo; describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).</p>
+</blockquote>
+
+<p>We can take advantage of this in React.</p>
+
+<p><a href="https://babeljs.io/blog/2015/06/07/react-on-es6-plus"><strong>Read more: Using ES7 property initializers in React</strong></a></p>
+
+<p>We can use a property initializer to set the initial value of state without writing a constructor:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+class Song extends React.Component {
+  state = {
+    versesRemaining: 5,
+  }
+}
+
+</code>
+</pre>
+
+
+
+<p>We can even set default props and use those in the initial state:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+class Song extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    verseCount: 10,
+  }
+  state = {
+    versesRemaining: this.props.verseCount,
+  }
+}
+
+</code>
+</pre>
+
+
+
+<h4 id="property-initializers-arrow-functions">Property initializers + arrow functions</h4>
+
+<p>Combining property initializers and arrow functions gives us a convenient way to auto-bind <code>this</code>, since arrow functions inherit <code>this</code> from the scope in which they are declared (lexical scoping):</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+class Something extends React.Component {
+  handleButtonClick = (ev) => {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+
+</code>
+</pre>
+
+
+
 <h2 id="presentations">Presentations</h2>
 
 <ul>
@@ -1144,14 +1271,14 @@ export default App
 <h4 id="reactrobats">Reactrobats</h4>
 
 <ul>
-<li><a href="https://codepen.io/dstrus/professor/ERMVGw/">Morning</a> | [Afternoon]()</li>
+<li><a href="https://codepen.io/dstrus/professor/ERMVGw/">Morning</a> | <a href="https://codepen.io/dstrus/professor/aKMJLj/">Afternoon</a></li>
 </ul>
 
 <h4 id="dwarf-underground">Dwarf Underground</h4>
 
 <ul>
-<li><a href="https://github.com/xtbc18s3/dwarf-underground">Fork and clone this directory</a></li>
-<li><a href="https://github.com/xtbc18s3/dwarf-morning">Morning</a> | [Afternoon]()</li>
+<li><a href="https://github.com/xtbc18s3/dwarf-underground">Fork and clone this repository</a></li>
+<li><a href="https://github.com/xtbc18s3/dwarf-morning">Morning</a> | <a href="https://github.com/xtbc18s3/dwarf-afternoon">Afternoon</a></li>
 </ul>
 
 <h2 id="homework">Homework</h2>
@@ -1769,20 +1896,20 @@ export default App
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1530546241"></script>
-    <script src="/js/perfect-scrollbar.min.js?1530546241"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1530546241"></script>
-    <script src="/js/jquery.sticky.js?1530546241"></script>
-    <script src="/js/featherlight.min.js?1530546241"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1530546241"></script>
-    <script src="/js/highlight.pack.js?1530546241"></script>
+    <script src="/js/clipboard.min.js?1530570806"></script>
+    <script src="/js/perfect-scrollbar.min.js?1530570806"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1530570806"></script>
+    <script src="/js/jquery.sticky.js?1530570806"></script>
+    <script src="/js/featherlight.min.js?1530570806"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1530570806"></script>
+    <script src="/js/highlight.pack.js?1530570806"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1530546241"></script>
-    <script src="/js/learn.js?1530546241"></script>
-    <script src="/js/hugo-learn.js?1530546241"></script>
+    <script src="/js/modernizr.custom.71422.js?1530570806"></script>
+    <script src="/js/learn.js?1530570806"></script>
+    <script src="/js/hugo-learn.js?1530570806"></script>
 
-    <link href="/mermaid/mermaid.css?1530546241" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1530546241"></script>
+    <link href="/mermaid/mermaid.css?1530570806" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1530570806"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
