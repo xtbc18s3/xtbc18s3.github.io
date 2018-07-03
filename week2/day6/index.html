@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Setup for Mac :: Xtern Bootcamp 2018</title>
+    <title>Day 6: React :: Xtern Bootcamp 2018</title>
     
     
     <link href="/css/nucleus.css?1530633766" rel="stylesheet">
@@ -36,7 +36,7 @@
 <link href="/css/xtern.css" rel="stylesheet">
 
   </head>
-  <body class="" data-url="/setup-mac/">
+  <body class="" data-url="/week2/day6/">
     <nav id="sidebar" class="">
 
 
@@ -203,8 +203,8 @@
   
     
     <li data-nav-id="/setup-mac/" title="Setup for Mac" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/setup-mac/">
@@ -730,7 +730,7 @@
   
     
     <li data-nav-id="/week2/" title="Week II" class="dd-item 
-        
+        parent
         
         
         ">
@@ -773,7 +773,7 @@
  
   
     
-      <li data-nav-id="/week2/day6/" title="Day 6: React" class="dd-item ">
+      <li data-nav-id="/week2/day6/" title="Day 6: React" class="dd-item active">
         <a href="/week2/day6/">
         Day 6: React
         
@@ -825,6 +825,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -833,7 +835,13 @@
             
           
           
-            <a href='/'>Xtern Bootcamp 2018</a> > Setup for Mac
+            
+            
+          
+          
+            <a href='/'>Xtern Bootcamp 2018</a> > <a href='/week2/'>Week II</a> > Day 6: React
+          
+         
           
          
           
@@ -841,38 +849,184 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li>
+<ul>
+<li><a href="#using-map-with-components">Using <code>map</code> with Components</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li>
+<ul>
+<li><a href="#chatarang">Chatarang</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#homework">Homework</a>
+<ul>
+<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Day 6: React</h1>
           
 
         
 
 
-<div class="page-heading"><div>
 
 
-<p><i class="fa fa-apple"></i> Setup</p>
+<p><date>Tuesday, July 3, 2018</date></p>
+
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V">Playlist</a> | <a href="https://www.youtube.com/watch?v=xNvHMuOYc1Y&amp;list=PLuT2TqJuwaY8afDn9R0pVYZd9HzhsaP5V&amp;index=63">Day 6, part 1</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=czNa5ix1vFs&amp;list=PLuT2TqJuwaY-b1gN7b0NmF3GQ9_KHCxYG">Playlist</a> | [Day 6, part 1]()</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+<li><a href="https://reactjs.org/docs/getting-started.html">React Documentation</a></li>
+<li><a href="https://github.com/facebook/create-react-app"><code>create-react-app</code></a></li>
+<li><a href="https://fonts.google.com/">Google Fonts</a></li>
+<li><a href="https://hackernoon.com/all-you-need-to-know-about-css-in-js-984a72d48ebc">CSS in JS</a></li>
+<li>Using <code>map</code> with components</li>
+<li>Forms
+
+<ul>
+<li><a href="https://facebook.github.io/react/docs/forms.html">Controlled</a> vs. <a href="https://facebook.github.io/react/docs/uncontrolled-components.html">Uncontrolled</a></li>
+<li><a href="https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/">Form inputs in React</a></li>
+</ul></li>
+<li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h4 id="using-map-with-components">Using <code>map</code> with Components</h4>
+
+<p><strong>Person.js</strong></p>
 
 
-</div></div>
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
 
-<p>With this guide, you can prepare your laptop with everything you&rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.</p>
+class Person extends React.Component {
+  render() {
+    return (
+      &lt;li&gt;Hello, {this.props.person.name}!&lt;/li&gt;
+    )
+  }
+}
 
-<p>If you have trouble at any point, please contact <a href="mailto:davey@fretless.com">Davey</a> or <a href="mailto:dana@fretless.com">Dana</a>.</p>
+export default Person
+
+</code>
+</pre>
+
+
+
+<p><strong>PersonList.js</strong></p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+import Person from './Person'
+
+class PersonList extends React.Component {
+  render() {
+    const people = [
+      { name: 'Dana', hair: 'blonde' },
+      { name: 'Nichole', hair: 'long' },
+      { name: 'Davey', hair: 'long gone' }
+    ]
+    return (
+      &lt;div&gt;
+        &lt;h2&gt;People&lt;/h2&gt;
+        {
+          people.map((person => &lt;Person person={person} /&gt;))
+        }
+      &lt;/div&gt;
+    )
+  }
+}
+
+export default PersonList
+
+</code>
+</pre>
+
+
+
+<ul>
+<li><code>map</code> with keys
+
+<ul>
+<li><a href="https://reactjs.org/docs/lists-and-keys.html">Key props on list items</a></li>
+</ul></li>
+</ul>
+
+<h2 id="projects">Projects</h2>
+
+<h4 id="chatarang">Chatarang</h4>
+
+<ul>
+<li><a href="https://github.com/xtbc18s3/chatarang">Morning</a> | [Afternoon]()</li>
+</ul>
+
+<h2 id="homework">Homework</h2>
+
+<ul>
+<li>Create and style more components, based on the <code>chat-static</code> content. There should be approximately one CSS file per component.</li>
+</ul>
+
+<h3 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h3>
+
+<ul>
+<li>Make a <code>SignIn</code> component with a form that takes a user name or email.</li>
+<li>When the form is submitted, save that user in the <code>state</code> of the <code>App</code> component.</li>
+<li>When <code>state.user</code> is not set, show the <code>SignIn</code> component.</li>
+<li>When <code>state.user</code> is set, show the <code>Main</code> component.</li>
+</ul>
+
+<p><em>Hint</em>: You need to figure out how to do <strong>conditional rendering</strong>.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -1003,138 +1157,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -1319,22 +1341,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -1447,6 +1453,155 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1457,10 +1612,10 @@
 
 
         
-            <a class="nav nav-prev" href="/prereqs/terminal/" title="Terminal"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/week2/day5/" title="Day 5: Intro to React"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/setup-mac/chrome/" title="Chrome" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/week2/day5/" title="Day 5: Intro to React" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -1490,3 +1645,4 @@
 
   </body>
 </html>
+

@@ -22,5 +22,18 @@ Lecture Videos Morning:
  Playlist | Day 5, part 1  Topics ES2015+ (ES6+)  Modules (import/export) - ES2015 modules on Babel  React  Imperative vs. Declarative Components  JSX - Docs: Introducing JSX Props - Docs: Components and Props State - Docs: State and Lifecycle  create-react-app Stateless Functional Components  Stateless Functional Components in React Functional Components vs.</description>
     </item>
     
+    <item>
+      <title>Day 6: React</title>
+      <link>http://xtbc18s3.github.io/week2/day6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week2/day6/</guid>
+      <description>Tuesday, July 3, 2018
+Lecture Videos Morning:
+ Playlist | Day 6, part 1  Afternoon:
+ Playlist | [Day 6, part 1]()  Topics  React Documentation create-react-app Google Fonts CSS in JS Using map with components Forms  Controlled vs. Uncontrolled Form inputs in React  Mastering Markdown  Examples Using map with Components Person.js
+class Person extends React.Component { render() { return ( &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt; ) } } export default Person   PersonList.</description>
+    </item>
+    
   </channel>
 </rss>

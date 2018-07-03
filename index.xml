@@ -109,6 +109,19 @@ Lecture Videos Morning:
     </item>
     
     <item>
+      <title>Day 6: React</title>
+      <link>http://xtbc18s3.github.io/week2/day6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week2/day6/</guid>
+      <description>Tuesday, July 3, 2018
+Lecture Videos Morning:
+ Playlist | Day 6, part 1  Afternoon:
+ Playlist | [Day 6, part 1]()  Topics  React Documentation create-react-app Google Fonts CSS in JS Using map with components Forms  Controlled vs. Uncontrolled Form inputs in React  Mastering Markdown  Examples Using map with Components Person.js
+class Person extends React.Component { render() { return ( &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt; ) } } export default Person   PersonList.</description>
+    </item>
+    
+    <item>
       <title>Editor</title>
       <link>http://xtbc18s3.github.io/setup-mac/editor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
