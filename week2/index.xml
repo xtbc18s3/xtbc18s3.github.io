@@ -35,5 +35,17 @@ Lecture Videos Morning:
 class Person extends React.Component { render() { return ( &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt; ) } } export default Person   PersonList.</description>
     </item>
     
+    <item>
+      <title>Day 7: React Components &amp; Firebase</title>
+      <link>http://xtbc18s3.github.io/week2/day7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week2/day7/</guid>
+      <description>Thursday, July 5, 2018
+Lecture Videos Morning:
+ Playlist | Day 7, part 1  Afternoon:
+ Playlist | [Day 7, part 1]()  Topics React  Methods as props Conditional Rendering The Component Lifecycle If-Else in JSX  JavaScript  Destructuring assignment Spread operator Ternary operators  Firebase  Firebase re-base README  Examples React Methods as props Sometimes one component needs to update another component&amp;rsquo;s state. It can&amp;rsquo;t do that directly, but it can call a method from that other component if it&amp;rsquo;s available via a prop.</description>
+    </item>
+    
   </channel>
 </rss>
