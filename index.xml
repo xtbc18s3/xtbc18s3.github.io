@@ -175,7 +175,7 @@ Lecture Videos Morning:
       <description>Thursday, July 5, 2018
 Lecture Videos Morning:
  Playlist | Day 7, part 1  Afternoon:
- Playlist | [Day 7, part 1]()  Topics React  Methods as props Conditional Rendering If-Else in JSX  JavaScript  Destructuring assignment Spread operator Ternary operators  Firebase  Firebase re-base README  Examples React Methods as props Sometimes one component needs to update another component&amp;rsquo;s state. It can&amp;rsquo;t do that directly, but it can call a method from that other component if it&amp;rsquo;s available via a prop.</description>
+ Playlist | Day 7, part 1  Topics React  Methods as props Conditional Rendering If-Else in JSX  JavaScript  Destructuring assignment Spread operator Ternary operators  Firebase  Firebase re-base README  Examples React Methods as props Sometimes one component needs to update another component&amp;rsquo;s state. It can&amp;rsquo;t do that directly, but it can call a method from that other component if it&amp;rsquo;s available via a prop.</description>
     </item>
     
     <item>
