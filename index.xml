@@ -142,7 +142,7 @@ class Person extends React.Component { render() { return ( &amp;lt;li&amp;gt;Hel
       <description>Tuesday, July 10, 2018
 Lecture Videos Morning:
  Playlist | Day 9, part 1  Afternoon:
- Playlist | [Day 9, part 1]()  Topics React  React.Fragment Conditional Rendering  Routing  React Router  &amp;lt;Router /&amp;gt; Links and NavLinks Routes &amp;lt;Switch&amp;gt;: (Training Docs) history   Examples Routing React Router provides a routing solution that allows us to change what UI we render based on the current URL.</description>
+ Playlist | Day 9, part 1  Topics React  React.Fragment Conditional Rendering  Routing  React Router  &amp;lt;Router /&amp;gt; Links and NavLinks Routes &amp;lt;Switch&amp;gt;: (Training Docs) history   Examples Routing React Router provides a routing solution that allows us to change what UI we render based on the current URL.</description>
     </item>
     
     <item>
