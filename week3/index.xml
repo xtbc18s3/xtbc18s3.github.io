@@ -22,5 +22,17 @@ Lecture Videos Morning:
  Playlist | Day 8, part 1  Topics React  Lifecycle Methods: Chart  Firebase Authentication  &amp;lsquo;firebase/auth&amp;rsquo; authWithPopup Signing in and out Handling auth state changes Database rules GitHub OAuth  Deployment  Firebase Hosting  Examples Authentication Firebase isn&amp;rsquo;t just a real-time database. It can also provide authentication services via email/password, phone, or common third-party services like Github, Facebook, and Google.</description>
     </item>
     
+    <item>
+      <title>Day 9: React Router</title>
+      <link>http://xtbc18s3.github.io/week3/day9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week3/day9/</guid>
+      <description>Tuesday, July 10, 2018
+Lecture Videos Morning:
+ Playlist | Day 9, part 1  Afternoon:
+ Playlist | [Day 9, part 1]()  Topics React  React.Fragment Conditional Rendering  Routing  React Router  &amp;lt;Router /&amp;gt; Links and NavLinks Routes &amp;lt;Switch&amp;gt;: (Training Docs) history   Examples Routing React Router provides a routing solution that allows us to change what UI we render based on the current URL.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -134,6 +134,18 @@ class Person extends React.Component { render() { return ( &amp;lt;li&amp;gt;Hel
     </item>
     
     <item>
+      <title>Day 9: React Router</title>
+      <link>http://xtbc18s3.github.io/week3/day9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week3/day9/</guid>
+      <description>Tuesday, July 10, 2018
+Lecture Videos Morning:
+ Playlist | Day 9, part 1  Afternoon:
+ Playlist | [Day 9, part 1]()  Topics React  React.Fragment Conditional Rendering  Routing  React Router  &amp;lt;Router /&amp;gt; Links and NavLinks Routes &amp;lt;Switch&amp;gt;: (Training Docs) history   Examples Routing React Router provides a routing solution that allows us to change what UI we render based on the current URL.</description>
+    </item>
+    
+    <item>
       <title>Editor</title>
       <link>http://xtbc18s3.github.io/setup-mac/editor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
