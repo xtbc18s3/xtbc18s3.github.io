@@ -34,5 +34,17 @@ Lecture Videos Morning:
  Playlist | Day 9, part 1  Topics React  React.Fragment Conditional Rendering  Routing  React Router  &amp;lt;Router /&amp;gt; Links and NavLinks Routes &amp;lt;Switch&amp;gt;: (Training Docs) history   Examples Routing React Router provides a routing solution that allows us to change what UI we render based on the current URL.</description>
     </item>
     
+    <item>
+      <title>Day 10: More React, JS, and Routing</title>
+      <link>http://xtbc18s3.github.io/week3/day10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xtbc18s3.github.io/week3/day10/</guid>
+      <description>Wednesday, July 11, 2018
+Lecture Videos (Today we experienced technical difficulties with our recording system. Below are videos from the last session&amp;rsquo;s Day 10. Please note there are slight differences in the order and approach we took last session. As always, you can view Davey&amp;rsquo;s commit history on GitHub to see the step-by-step of today&amp;rsquo;s projects.)
+ Today&amp;rsquo;s Commit History: Morning Today&amp;rsquo;s Commit History: Afternoon  Videos:
+ Session 2 Day 10: Morning Session 2 Day 10: Afternoon  Topics JavaScript  Moment.</description>
+    </item>
+    
   </channel>
 </rss>
